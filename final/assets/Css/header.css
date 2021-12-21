@@ -1,0 +1,177 @@
+.main-header
+{
+	background-color:#fff;
+	padding:15px;
+}
+.main-header .container
+{
+	position: relative;
+	top: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width:1200px;
+	height: 100px;
+	margin:auto;
+	z-index:4;
+}
+.main-header .logo
+{
+	margin-right:80px;
+}
+.main-header .logo img
+{
+	position: relative;
+	width:150px;
+	align-items: center;
+	top: -25px;
+}
+.main-header .inner
+{
+	margin-right:40px;
+}
+.main-header .inner img
+{
+	position: relative;
+	width:5px;
+	height: 39%;
+	align-items: center;
+}
+.main-header .main-nav-a
+{
+	margin-right:20px;
+}
+.main-header .main-nav-a img
+{
+	position: relative;
+	width:50px;
+	height: 50%;
+	align-items: center;
+}
+.main-header .sh
+{
+	margin-right:20px;
+}
+.main-header .sh img
+{
+	position: relative;
+	width:30px;
+	height: 39%;
+	align-items: center;
+}
+.main-header .inner2 
+{
+	margin-right:20px;
+}
+.main-header .inner2 img
+{
+	position: relative;
+	width: 30px;
+	height: 30%;
+	align-items: center;
+}
+.main-header .main-nav
+{
+	display: flex;
+	font-size:20px;
+}
+.main-header .main-nav .main-nav-a
+{
+	position: relative;
+	color: black;
+	padding: 15px 60px;
+	transition: .3s;
+	padding-bottom:30px;
+	font-size:25px;
+	right: 80px;
+}
+.main-header .main-nav  .main-nav-a:hover
+{
+	top:8px;
+}
+.main-header .main-nav .main-nav-a:after
+{
+	position: absolute;
+	content: '';
+	left: 50%;
+	right: 50%;
+	bottom: 45px;
+	height: 0;
+	transition: .3s;
+}
+.main-header .main-nav .main-nav-a:hover:after
+{
+	left: 0;
+	right: 0;
+}
+.main-nav .aboutus
+{
+	position: absolute;
+	display:none;
+	top: 100%;
+	width:16%;
+	right: 250px;
+	height:auto;
+	border-radius:15px;
+	background-color: rgba(250,250,250,.95);
+	box-shadow: 5px 5px 10px rgba(33, 100, 78, 0.6);
+	padding:10px;
+	line-height:48px;
+	font-size:17px;
+	display: none; 
+}
+.main-nav .aboutus a
+{
+	text-decoration:none;
+	color: black;
+	transition:.2s;
+	padding-right:50%;
+}
+.main-nav .aboutus a:hover{
+
+	background-color:rgba(17, 114, 121, 0.5);
+	color:#fff;
+	width: 120%;
+}
+.main-nav .shop
+{
+	display:none;
+	position: absolute;
+	top: 70%;
+	width:16%;
+	left: 100px;
+	height:auto;
+	border-radius:15px;
+	background-color: rgba(250,250,250,.95);
+	box-shadow: 5px 5px 10px rgba(33, 100, 78, 0.6);
+	padding:10px;
+	line-height:50px;
+	font-size:17px;
+}
+.main-nav .shop a
+{
+	text-decoration: none;
+	color: black;
+	transition: .2s;
+	padding-right:60%;
+}
+.main-nav .shop a:hover
+{
+	background-color:rgba(17, 114, 121, 0.5);
+	color:#fff;
+	width: 150%;
+}
+.main-nav li:hover > ul
+{
+	display: block;
+}
+.main-header .main-nav .inner
+{
+	position: relative;
+	margin-right:30px;
+}
+.main-header .main-nav .inner2
+{
+	position: relative;
+	margin-right:30px;
+}
