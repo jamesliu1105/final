@@ -1,13 +1,18 @@
 .slider_container {
     margin: 30px auto;
     width: 400px;
-    height: 280px;
+    height: auto;
     position: relative;
     border: 20px solid;    
     border-color: #fff;
     border-bottom-width: 100px;
     background-color: #f5f5f5;
    
+}
+
+.slider_container img{
+    width: 1660px;
+    height: 1000px;
 }
 
 .slider_container div {
@@ -62,23 +67,23 @@
 }
 
 .slider_container div:nth-child(4) {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
 }
 
 .slider_container div:nth-child(3) {
-    -webkit-animation-delay: 8s;
-            animation-delay: 8s;
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
 }
 
 .slider_container div:nth-child(2) {
-    -webkit-animation-delay: 12s;
-            animation-delay: 12s;
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
 }
 
 .slider_container div:nth-child(1) {
-    -webkit-animation-delay: 16s;
-            animation-delay: 16s;
+    -webkit-animation-delay: 20s;
+            animation-delay: 20s;
 }
 .slider_container span {    
     color: #000;
@@ -108,7 +113,6 @@
     -webkit-animation-play-state: paused;
             animation-play-state: paused;
 }
-/**外層的響應式容器**/
 .embed-responsive {
     position: relative;
     display: block;
@@ -128,8 +132,8 @@
     border: 0;
 }
 .rwd_slider_container_wrapper {
-    width: 50%;
-    height: 50%;
+    width: 90%;
+    height: 1100px;
     max-width: 100%;
     box-sizing: border-box;
     padding: 20px;
