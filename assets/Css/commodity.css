@@ -1,4 +1,4 @@
-  .menu{
+.menu{
     z-index: -1;
     width:80%; 
     height: 100%;
@@ -16,10 +16,10 @@
   }
 
   .photo-container2{
-    margin: 8% 20% 8% 20%;
+    margin: 8% 10% 8% 10%;
     width: 80%;
     height: 100%;
-    display: flex;
+    display:flex;
     overflow: hidden visible;
   }
 

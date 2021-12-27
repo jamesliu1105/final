@@ -282,7 +282,7 @@
   }
     .pic{
         width:348px; 
-        height:600px;
+        height:400px;
         overflow:hidden;
     }
     .pic img{
@@ -299,7 +299,7 @@
   
   .card-img-top {
     width: 100%;
-    height: 600px;
+    height: 400px;
     left:300px;
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
