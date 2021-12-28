@@ -1,3 +1,7 @@
+.logo{
+	right: 200px;
+	z-index: 2;
+}
 .main-header
 {
 	background-color:rgb(120, 166, 206);
@@ -39,7 +43,7 @@
 }
 .main-header .main-nav-a
 {
-	margin-right:20px;
+	margin-right:0px;
 }
 .main-header .main-nav-a img
 {
@@ -72,18 +76,19 @@
 }
 .main-header .main-nav
 {
+	margin-right:7% ;
 	display: flex;
-	font-size:20px;
+	font-size:0px;
 }
 .main-header .main-nav .main-nav-a
 {
 	position: relative;
 	color: black;
-	padding: 15px 60px;
+	padding: 15px 1px;
 	transition: .3s;
 	padding-bottom:30px;
 	font-size:25px;
-	right: 80px;
+	right: 220px;
 }
 .main-header .main-nav  .main-nav-a:hover
 {
@@ -132,6 +137,7 @@
 	background-color:rgba(17, 114, 121, 0.5);
 	color:#fff;
 	width: 120%;
+	margin-left: 0%;
 }
 .main-nav .shop
 {

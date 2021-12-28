@@ -1,59 +1,5 @@
 
-  section.awSlider .carousel{
-    display:table;
-    z-index:2;
-    -moz-box-shadow: 0 0 4px #444;
-      -webkit-box-shadow: 0 0 4px #444;
-      box-shadow: 0 0 15px rgba(1,1,1,.5);
-  }
-  
-  section.awSlider{
-    margin:30px auto;
-    padding:30px;
-    position:relative;
-    display:table;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  section.awSlider:hover > img{
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-    opacity:1;
-  }
-  
-  section.awSlider img{
-     pointer-events: none;
-  }
-  
-  section.awSlider > img{
-    position:absolute;
-    top:30px;
-    z-index:1;
-    transition:all .3s;
-    filter: blur(1.8vw);
-    -webkit-filter: blur(2vw);
-    -moz-filter: blur(2vw); 
-    -o-filter: blur(2vw); 
-    -ms-filter: blur(2vw);
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    opacity:.5;
-  }
-.ly{
-    background-color:#F8DEC6;
-    width:90%;
-    height:auto; 
-    margin:10px 40px 10px 40px;
-    border-radius:10px;
-    padding: 10px;
-}
+
 .commit{
     margin: 0% 0% 0% 35%;
 }
@@ -114,14 +60,15 @@ img.product{
 }
 
 .mh2:hover {
-    background-color: #D13C1E;
+    background-color: #3f4faa;
+    color:aliceblue;
     border-radius: 200px;
     transition: all 0.5s linear;    
 }
 .txt{
     margin: 5% 10% 0% 50%;
 }
-.buttom{
+.buybutton{
     float: right;
     display: flex;
     margin-right: 5%;
@@ -159,4 +106,20 @@ background: white;
 
 .checked {
 color: orange;
+}
+.ly{
+    background-color:cornsilk;
+    width:90%;
+    height:auto; 
+    margin:10px 40px 10px 40px;
+    border-radius:10px;
+    padding: 10px;
+}
+.commit{
+    margin-left:2%;
+    width: 95%;
+}
+.sendbutton{
+    margin-left: 88%;
+    
 }

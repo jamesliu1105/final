@@ -183,7 +183,8 @@
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color:#A68E7A;
+    background-color:#3f4faa;
+    color:#f5f5f5;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
@@ -213,7 +214,7 @@
   
   .card-title {
     margin-bottom: 0.75rem;
-    color: #504427;
+    color:aliceblue;
     font-family:微軟正黑體;
     font-size: 35px;
   }

@@ -11,7 +11,7 @@
 }
 .tab2 {
   float: left;
-  background-color:#FEEBEB;
+  background-color:aliceblue;
   width: 20%;
   font-family:"微軟正黑體";
   border-radius:5px;
@@ -35,14 +35,14 @@
 
 /* Change background color of buttons on hover */
 .tab2 button:hover {
-  background-color: #D1B3B3;
+  background-color: dodgerblue;
 }
 .tab2 button:focus{
 	outline:none;
 }
 /* Create an active/current "tab button" class */
 .tab2 button.active {
- 	background-color:  #A35353;
+ 	background-color:  #3f4faa;
   	color:#FFFFFF;
   	font-weight:bolder;
 }
@@ -59,7 +59,7 @@
   font-family:"微軟正黑體";
 }
 .tabcontent2 h3{
-	color:#A35353;
+	color:#3f4faa;
 	font-weight:bolder;
 }
 
@@ -67,7 +67,7 @@
   width: 250px;
   padding: 6px 10px;
   display: inline-block;
-  border: 1px solid #A35353;
+  border: 1px solid #3f4faa;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -78,20 +78,20 @@ select{
   width: 80px;  
   padding: 6px 10px;
   display: inline-block;
-  border: 1px solid #A35353;
+  border: 1px solid #3f4faa;
   border-radius: 4px;
 }
 select:focus{
 	outline:none;
 }
 #List2{
-  background-color:#F3E6E6;
+  background-color:lightblue;
   margin-bottom: 20px;
 }
 .list-2{
   padding:15px 15px 15px 15px;
   height: 115px;
-  border-bottom: #A35353 solid 0.5px;
+  border-bottom:#3f4faa solid 0.5px;
   clear: both;
 }
 .buylistpic{
@@ -157,7 +157,7 @@ select:focus{
 	height:50px;
 	font-size:22px;
 	border-radius:10px;
-	background-color:#A35353;
+	background-color:#3f4faa;
 	color:white;
 	cursor:pointer;
 }

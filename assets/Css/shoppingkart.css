@@ -43,8 +43,6 @@ body{
     margin-left: 100px;
     margin-top: 20px;
 } 
-.submmit{
-    position: relative;
-    float: right;
-    margin-right: 10%;
+.submit{
+    margin:5% 0% 0% 90% ;
 }
