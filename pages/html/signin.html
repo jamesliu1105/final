@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="../assets/Css/header.css" type="text/css">
+    <link rel="stylesheet"  href="../assets/Css/index.css" type="text/css">
+    <style type="text/css">
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            background-color: aliceblue;
+        }
+        fieldset {
+            margin: 1.5em 0 0 0;
+            padding: 0;
+            border: 1px solid #CCC;
+        }
+        legend {
+            margin-left: 1em;
+            color: #009;
+            font-weight: bold;
+        }
+        label {
+            float: left;
+            width: 10em;
+            margin-right: 1em;
+        }
+        fieldset ol {
+            list-style: none;
+            padding-top: 3px;
+            padding-left: 2em;
+            padding-bottom: 3px;
+        }
+        fieldset li {
+            line-height: 24px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        fieldset li input.fildform{
+            line-height: 24px;
+            height: 24px;
+            border: 1px solid #CCC;
+        }
+        fieldset .submit {
+            border-style: none;
+        }
+        </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+          <a href="index.html" class="logo">
+            <img src="../assets/images/logo.jpg"></a>
+        
+              <ul class="main-nav">
+          <li>
+            <a href="#" class="inner main-nav-a sh"><img src="../assets/image/shopping-bag.png" alt="提袋">商品一覽</a>
+            <ul class="shop">
+            <li><a href="pages/allshop.html">所有商品</a></li>
+            <li><a href="pages/vegetables.html">充電線</a></li>
+            <li><a href="pages/fruit.html">耳機</a></li>
+            <li><a href="pages/milk.html">手機殼</a></li>
+            <li><a href="pages/milk.html">其他配件</a></li>
+              </ul>
+            </li>
+          <li>
+              <a href="../html/qna.html" class="main-nav-a"><img src="../assets/image/1271773.png" alt="Q＆A">常見Q&A</a>
+            </li>
+          <li>
+          <a href="../html/signin.html" class="inner2 main-nav-a"><img src="../assets/image/1077114.png" alt="會員">會員中心</a>  
+              </li>			
+          <li>
+            <a href="#" class="main-nav-a"><img src="../assets/image/5859382.png" alt="團隊">關於我們</a>
+            <ul class="aboutus">
+            <li><a href="pages/advantage.html">品牌理念</a></li>
+            <li><a href="../html/aboutus.html">組員介紹</a></li>
+                </ul>
+          </li>
+          <li>
+            <a href="../html/shoppingkart.html" class="inner2 main-nav-a"><img src="../assets/image/3144456.png" alt="會員">購物車</a>  
+          </li>		    
+              </ul>	
+        </div>
+      </header>    
+    <form action="example.php">
+        <fieldset>
+          <legend>基本資料</legend>
+             <ol>
+               <li>
+                 <label for="name">姓名:</label>
+                 <input id="name" name="name" type="text" class="fildform" />
+               </li>
+               <li>
+                 <label for="email">Email:</label>
+                 <input id="email" name="email" type="text" class="fildform" />
+               </li>
+               <li>
+                <label for="phone">密碼:</label>
+                <input id="password" name="password" type="text" class="fildform" />
+              </li><li>
+                <label for="phone">確認密碼:</label>
+                <input id="password" name="password" type="text" class="fildform" />
+              </li>
+              </ol>
+       </fieldset> <fieldset>
+        <legend>Delivery Address</legend>
+           <ol>
+             <li>
+                <label for="phone">電話:</label>
+                <input id="phone" name="phone" type="text" class="fildform" />
+              </li>
+             <li>
+                <label for="address1">地址:</label>
+                <input id="address" name="address" type="text" class="fildform" />
+             </li>
+           </ol>
+       </fieldset>
+       <fieldset class="submit">
+          <input class="submit" type="submit" value="送出" />
+       </fieldset>
+   </form>
+
+</body>
+</html>

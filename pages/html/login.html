@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <style>
+        form{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            background-color: aliceblue;
+        }
+    </style>
+    <link rel="stylesheet"  href="../assets/Css/header.css" type="text/css">
+    <link rel="stylesheet"  href="../assets/Css/index.css" type="text/css">
+</head>
+<body>
+    <header class="main-header">
+	    <div class="container">
+		    <a href="index.html" class="logo">
+			    <img src="../assets/images/logo.jpg"></a>
+			
+		        <ul class="main-nav">
+				<li>
+					<a href="#" class="inner main-nav-a sh"><img src="../assets/image/shopping-bag.png" alt="提袋">商品一覽</a>
+					<ul class="shop">
+					<li><a href="pages/allshop.html">所有商品</a></li>
+					<li><a href="pages/vegetables.html">充電線</a></li>
+					<li><a href="pages/fruit.html">耳機</a></li>
+					<li><a href="pages/milk.html">手機殼</a></li>
+					<li><a href="pages/milk.html">其他配件</a></li>
+				    </ul>
+			    </li>
+				<li>
+		        <a href="pages/qanda.html" class="main-nav-a"><img src="../assets/image/1271773.png" alt="Q＆A">常見Q&A</a>
+			    </li>
+				<li>
+				<a href="pages/membercenter.html" class="inner2 main-nav-a"><img src="../assets/image/1077114.png" alt="會員">會員中心</a>  
+		        </li>			
+				<li>
+					<a href="#" class="main-nav-a"><img src="../assets/image/5859382.png" alt="團隊">關於我們</a>
+					<ul class="aboutus">
+					<li><a href="pages/advantage.html">品牌理念</a></li>
+					<li><a href="pages/aboutus.html">組員介紹</a></li>
+			        </ul>
+				</li>
+				<li>
+					<a href="pages/membercenter.html" class="inner2 main-nav-a"><img src="../assets/image/3144456.png" alt="會員">購物車</a>  
+				</li>		    
+		        </ul>	
+	    </div>
+    </header>    
+    <a href="signin.html">還沒註冊嗎？</a>
+      <form class="form" action="logcheck.php" method="post">
+          <input class="space" type="text" name="account" value="" placeholder="輸入帳號"></br>
+          <input class="space" type="password" name="password" value="" placeholder="輸入密碼"></br>
+          <input class="space" type="submit" name="" value="登入">
+      </form>
+</body>
+</html>
