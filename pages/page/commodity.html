@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="../../assets/Css/commodity.css" type="text/css">
+</head>
+<body>
+    <div class="pic">
+    <section class="awSlider">
+        <div  class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target=".carousel" data-slide-to="0" class="active"></li>
+            <li data-target=".carousel" data-slide-to="1"></li>
+            <li data-target=".carousel" data-slide-to="2"></li>
+            <li data-target=".carousel" data-slide-to="3"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-941.jpg">
+              <div class="carousel-caption">Görsel #1</div>
+            </div>
+            <div class="item">
+              <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-101.jpg">
+              <div class="carousel-caption">Görsel #2</div>
+            </div>
+            <div class="item">
+              <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-1051.jpg">
+              <div class="carousel-caption">Görsel #3</div>
+            </div>
+            <div class="item">
+              <img src="http://www.adobewordpress.com/wp-content/uploads/2013/07/wallpaper-thumb-74.jpg">
+              <div class="carousel-caption">Görsel #4</div>
+            </div>
+          </div>
+      
+          <!-- Controls -->
+          <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Geri</span>
+          </a>
+          <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">İleri</span>
+          </a>
+        </div>
+      </section>
+      <script>
+                $('section.awSlider .carousel').carousel({
+            pause: "hover",
+        interval: 2000
+        });
+
+        var startImage = $('section.awSlider .item.active > img').attr('src');
+        $('section.awSlider').append('<img src="' + startImage + '">');
+
+        $('section.awSlider .carousel').on('slid.bs.carousel', function () {
+        var bscn = $(this).find('.item.active > img').attr('src');
+            $('section.awSlider > img').attr('src',bscn);
+        });
+
+
+        /* 
+        Philips ambilight tv
+        Üzerine gleince duruyor slide
+        */
+      </script>
+    </div>
+    <!--商品 start-->
+	<div class="upitem">
+        <font size="7" style="margin-left: 4%;"><strong>USB 3.1 Type-C充電傳輸線(3M)</strong></font><br>
+		<!--左邊圖片-->
+		<div class="itempic">
+			<img src="../../assets/Images/lightning.jpg" class="product">
+		</div>
+		<!--右邊資料-->
+        <br><br>
+        <div class="txt">
+		<font size="6">Apple Lightning 對 USB 連接線</font><br><br>
+		<font size="3">這款 USB 2.0 連接線能將配備 Lightning 連接器的 iPhone、iPad 或 iPod 連接至電腦的 USB 連接埠，進行同步和充電；也可以連接到 Apple USB 電源轉接器，透過牆壁插座便利地充電。</font><br><br>
+		<font size="5">庫存:20</font><br><br>
+		<font size="5">商品評價</font>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star"></span>
+		<span class="fa fa-star"></span>
+		<br><br>
+		<font size="5">價格:$299</font><br><br>
+		<font size="5">購買數量:</font>
+		<!--購買數量加減-->
+        
+        <input id="num-min" class="num-min" name="" type="button" value="-" />
+        <input type="text" class="input-num" id="input-num" value="0" style="width:60px;height:40px;">
+        <input id="num-plus" class="num-plus" name="" type="button" value="+" />
+		<br><br>
+        </div>
+        <!--加減按鈕-->
+		<script>
+　　　　var num_plus = document.getElementById("num-plus");
+        var num_min = document.getElementById("num-min");
+        var input_num = document.getElementById("input-num");
+ 
+        num_plus.onclick = function() {
+ 
+            input_num.value = parseInt(input_num.value) + 1;
+        }
+ 
+        num_min.onclick = function() {
+ 
+            if(input_num.value <= 0) {
+                input_num.value = 0;
+            } else {
+ 
+                input_num.value = parseInt(input_num.value) - 1;
+            }
+ 
+        }
+		</script>
+		<!--購買按鈕-->
+        <br>
+        <div class="buttom">
+		<input type="button" value="立即購買" class="mh2"  onclick="location.href='要前往的網頁連結'">
+		<input type="button" value="加入購物車" class="mh2" style="margin-left:7% ; " onclick="location.href='要前往的網頁連結'">		
+        </div>
+    </div>
+	<!--商品 end-->
+
+	<!--評論1 start-->
+	<div class="downitem">
+	
+	<div style="padding-left:15px; padding-top: 15px;">
+	<div class="ly">
+		<font size="6">TNG123456</font>  <!--用戶名-->
+		<span class="fa fa-star checked"></span> <!--星星評價-->
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star"></span>
+		<span class="fa fa-star"></span><br>
+		<font size="5">Hey&nbsp;baby&nbsp;where&nbsp;you&nbsp;wanna&nbsp;go</font><!--留言-->
+
+	</div>
+	<!--評論1 end-->
+
+	<!--評論2 start-->
+	<div class="ly">
+		<font size="6">C-HA&nbsp;President</font> <!--用戶名-->
+		<span class="fa fa-star checked"></span> <!--星星評價-->
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star"></span><br>
+		<font size="5">boom&nbsp;bap&nbsp;boom&nbsp;bap</font> <!--留言-->
+	</div>
+	<!--評論2 end-->
+	
+	<!--評分區 start-->
+    <div class="commit">
+	<font size="3"><strong>評價</strong></font>
+	<div class="rating"> <!--星星評分-->
+		<input type="radio" id="star5" name="rating" value="5" hidden>
+		<label for="star5"></label>
+		<input type="radio" id="star4" name="rating" value="4" hidden>
+		<label for="star4"></label>
+		<input type="radio" id="star3" name="rating" value="3" hidden>
+		<label for="star3"></label>
+		<input type="radio" id="star2" name="rating" value="2" hidden>
+		<label for="star2"></label>
+		<input type="radio" id="star1" name="rating" value="1" hidden>
+		<label for="star1"></label>
+	</div>
+    
+	<font size="3"><strong>評論</strong></font><br>
+		<form>			
+			<textarea name="memo" cols="30" rows="5" wrap="hard"> </textarea><br> <!--評論欄-->			
+		
+		<!--評論按鈕-->
+		<input type="submit" name="send" value="送出">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 		<input type="reset" name="rewrite" value="重寫">
+ 		</form>
+	</div>
+</div>
+	<!--評分區 end-->
+
+	</div>
+</body>
+</html>
