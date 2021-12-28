@@ -1,0 +1,10 @@
+body{
+    background-color: aliceblue;
+    font-family: arial,"微軟正黑體";
+}
+.form{
+    line-height: 0px;
+}
+div.act{
+    margin: 100px 100px 0px 600px;
+} 

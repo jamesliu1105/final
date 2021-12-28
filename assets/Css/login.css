@@ -1,0 +1,16 @@
+.background1{
+    background-color:white;
+    text-align: center;
+}
+.gmail{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+.form{
+    border: black 2px solid;
+    border-radius: 10px;
+}
+.space{
+    left: 50px;
+}

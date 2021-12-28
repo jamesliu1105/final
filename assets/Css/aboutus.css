@@ -1,0 +1,104 @@
+body{
+    background-color: aliceblue;
+    font-family: arial,"微軟正黑體";
+}
+#HEADER{
+    width: 960px;
+    margin:0 auto;
+    text-align:center ;
+}
+
+#NAV{
+    width: 960px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+
+}
+#NAV button{
+    float: left;
+    list-style:none ;
+    display: block;
+    width: 192px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #000;
+    font-size: 15px;
+    color: #FFF;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+#NAV button:hover{
+    background-color: #3f4faa;
+
+}
+#contant{  
+    clear: both;
+    width: 960px;
+    align-self:center;
+    margin-top: 10px;
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+
+#contant image{
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+#contant p{
+    text-indent: 50px;
+    font-size: 15px;
+    line-height: 1.7;
+    padding: 0 30px;
+    padding-bottom: 15px;
+    
+}
+#pic{
+    width: 150px;
+    float: left;
+    position: relative;
+    left:100px;
+   
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #3f4faa;
+  }
+.tabcontent {
+    display: none;
+    height: 200px;
+    padding: 6px 12px;
+    border-top: none;
+    clear: both;
+    width: 960px;
+    align-self:center;
+    margin-top: 10px;
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: black 2px solid;
+    border-radius: 10px;
+    position: relative;
+    left: 215px;
+    
+}
+.intpho{
+    float: left;
+    width: 150px;
+    position: relative;
+    
+}
+.art{
+    text-align: center;
+    position: relative;
+    
+}

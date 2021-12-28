@@ -1,6 +1,6 @@
 .main-header
 {
-	background-color:#FFFF33;
+	background-color:rgb(120, 166, 206);
 	padding:15px;
 }
 .main-header .container
@@ -175,12 +175,3 @@
 	position: relative;
 	margin-right:30px;
 }
-/**版權**/
-.footer{
-	width: 100%;
-	height:100px;
-	background-color: #CCA06F;
-	color:#634A1C;
-	text-align: center;
-	font-size:30px;
-  }
