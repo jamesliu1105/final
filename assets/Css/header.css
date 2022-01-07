@@ -1,6 +1,6 @@
 .logo{
-	right: 200px;
 	z-index: 2;
+	margin-right:80px;
 }
 .main-header
 {
@@ -19,16 +19,14 @@
 	margin:auto;
 	z-index:4;
 }
-.main-header .logo
-{
-	margin-right:80px;
-}
+
 .main-header .logo img
 {
 	position: relative;
 	width:150px;
 	align-items: center;
 	top: -25px;
+	left: -250px;
 }
 .main-header .inner
 {
@@ -43,7 +41,7 @@
 }
 .main-header .main-nav-a
 {
-	margin-right:0px;
+	margin-right:80px;
 }
 .main-header .main-nav-a img
 {
@@ -84,11 +82,11 @@
 {
 	position: relative;
 	color: black;
-	padding: 15px 1px;
+	padding: 15px 10px;
 	transition: .3s;
 	padding-bottom:30px;
-	font-size:25px;
-	right: 220px;
+	font-size:21px;
+	right: 180px;
 }
 .main-header .main-nav  .main-nav-a:hover
 {
@@ -99,7 +97,7 @@
 	position: absolute;
 	content: '';
 	left: 50%;
-	right: 50%;
+	right: 40%;
 	bottom: 45px;
 	height: 0;
 	transition: .3s;
@@ -115,7 +113,6 @@
 	display:none;
 	top: 100%;
 	width:16%;
-	right: 250px;
 	height:auto;
 	border-radius:15px;
 	background-color: rgba(250,250,250,.95);
@@ -123,17 +120,18 @@
 	padding:10px;
 	line-height:48px;
 	font-size:17px;
-	display: none; 
+	margin-left: -175px;
 }
 .main-nav .aboutus a
 {
 	text-decoration:none;
 	color: black;
-	transition:.2s;
+	transition:.3s;
 	padding-right:50%;
+	position: relative;
+	left: 10%;
 }
 .main-nav .aboutus a:hover{
-
 	background-color:rgba(17, 114, 121, 0.5);
 	color:#fff;
 	width: 120%;

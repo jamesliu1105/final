@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="../../assets/Css/commodity.css" type="text/css">
+    <link rel="stylesheet"  href="../../assets/Css/header.css" type="text/css">
+    <script src="../../assets/Js/product.js"></script>
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <a href="../index.html" class="logo">
+      <img src="../../assets/images/logo.jpg"></a>
+      <ul class="main-nav">
+        <li>
+          <a href="#" class="inner main-nav-a sh"><img src="../../assets/Images/shopping-bag.png" alt="提袋">商品一覽</a>
+          <ul class="shop">
+            <li><a href="product.html">所有商品</a></li>
+            <li><a href="charging.html">充電線</a></li>
+            <li><a href="earphone.html">耳機</a></li>
+            <li><a href="case.html">手機殼</a></li>
+            <li><a href="other.html">其他配件</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="../page/qna.html" class="main-nav-a"><img src="../../assets/Images/1271773.png" alt="Q＆A">常見Q&A</a>
+        </li>
+        <li>
+          <a href="person.html" class="inner2 main-nav-a"><img src="../../assets/Images/1077114.png" alt="會員">會員中心</a>  
+        </li>			
+        <li>
+          <a href="#" class="main-nav-a"><img src="../../assets/Images/5859382.png" alt="團隊">關於我們</a>
+          <ul class="aboutus">
+            <li><a href="brand.html">品牌理念</a></li>
+            <li><a href="aboutus.html">組員介紹</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="shoppingkart.html" class="inner2 main-nav-a"><img src="../../assets/Images/3144456.png" alt="會員">購物車</a>  
+        </li>		    
+        <li>
+          <a href="../page/login.html" class="inner2 main-nav-a"><img src="../../assets/Images/3772456.png" alt="會員">會員登入</a>  
+        </li>
+      </ul>	
+    </div>
+  </header>
+    <!--商品 start-->
+	<div class="upitem">
+        <font size="7" style="margin-left: 4%;"><strong>WH-CH710N 無線降噪耳機</strong></font><br>
+		<!--左邊圖片-->
+		<div class="itempic">
+			<img src="../../assets/Images/ear.jpg" class="product">
+		</div>
+		<!--右邊資料-->
+        <br><br>
+        <div class="txt">
+		<font size="6">SONY 無線降噪藍牙耳罩式耳機 </font><br><br>
+		<font size="3">長達 35 小時的電池續航力
+            、 支援快速充電
+            、雙重雜訊感應器技術的降噪功能
+            、 30 mm 驅動單體聽見更多細節
+            、免持通話功能與智慧型手機相容</font><br><br>
+		<font size="5">庫存:15</font><br><br>
+		<font size="5">商品評價</font>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star"></span>
+		<span class="fa fa-star"></span>
+		<br><br>
+		<font size="5">價格:$4990</font><br><br>
+		<font size="5">購買數量:</font>
+		<!--購買數量加減-->
+        
+        <input id="num-min" class="num-min" name="" type="button" value="-" />
+        <input type="text" class="input-num" id="input-num" value="0" style="width:60px;height:40px;">
+        <input id="num-plus" class="num-plus" name="" type="button" value="+" />
+		<br><br>
+        </div>
+        <!--加減按鈕-->
+		<script>
+　　　　var num_plus = document.getElementById("num-plus");
+        var num_min = document.getElementById("num-min");
+        var input_num = document.getElementById("input-num");
+ 
+        num_plus.onclick = function() {
+ 
+            input_num.value = parseInt(input_num.value) + 1;
+        }
+ 
+        num_min.onclick = function() {
+ 
+            if(input_num.value <= 0) {
+                input_num.value = 0;
+            } else {
+ 
+                input_num.value = parseInt(input_num.value) - 1;
+            }
+ 
+        }
+		</script>
+		<!--購買按鈕-->
+        <br>
+        <div class="buybutton">
+		<input type="button" value="立即購買" class="mh2"  onclick="location.href='要前往的網頁連結'">
+		<input type="button" value="加入購物車" class="mh2" style="margin-left:7% ; " onclick="location.href='要前往的網頁連結'">		
+        </div>
+    </div>
+	<!--商品 end-->
+    
+	<!--評論1 start-->
+	<div class="downitem">
+        <font size="5"><strong>商品評論</strong></font><br>
+	<div style="padding-left:15px; padding-top: 15px;">
+	<div class="ly">
+		<font size="6">balldragon0206</font>  <!--用戶名-->
+		<span class="fa fa-star checked"></span> <!--星星評價-->
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star"></span>
+		<span class="fa fa-star"></span><br>
+		<font size="5">就&nbsp;。&nbsp;很&nbsp;。&nbsp;pro&nbsp;。</font><!--留言-->
+
+	</div>
+	<!--評論1 end-->
+
+	<!--評論2 start-->
+	<div class="ly">
+		<font size="6">bensonchen0216</font> <!--用戶名-->
+		<span class="fa fa-star checked"></span> <!--星星評價-->
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star"></span><br>
+		<font size="5">yyds!!!!!!</font> <!--留言-->
+	</div>
+	<!--評論2 end-->
+	
+	<!--評分區 start-->
+    <div class="commit">
+	<font size="3"><strong>評價</strong></font>
+	<div class="rating"> <!--星星評分-->
+		<input type="radio" id="star5" name="rating" value="5" hidden>
+		<label for="star5"></label>
+		<input type="radio" id="star4" name="rating" value="4" hidden>
+		<label for="star4"></label>
+		<input type="radio" id="star3" name="rating" value="3" hidden>
+		<label for="star3"></label>
+		<input type="radio" id="star2" name="rating" value="2" hidden>
+		<label for="star2"></label>
+		<input type="radio" id="star1" name="rating" value="1" hidden>
+		<label for="star1"></label>
+	</div>
+    
+	<font size="3"><strong>評論</strong></font><br>
+		<form >			
+			<textarea class="commit" name="memo" cols="30" rows="5" wrap="hard"> </textarea><br> <!--評論欄-->			
+		
+		<!--評論按鈕-->
+        <div class="sendbutton">
+		<input  type="submit" name="send" value="送出">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 		<input  type="reset" name="rewrite" value="重寫">
+        </div>  
+ 		</form>
+	</div>
+</div>
+	<!--評分區 end-->
+
+	</div>
+</body>
+</html>
