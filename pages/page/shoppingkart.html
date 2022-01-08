@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../../assets/css/shoppingkart.css">
+    <link rel="stylesheet" href="../../assets/css/shoppingkart.css" type="text/css">
     <link rel="stylesheet"  href="../../assets/Css/header.css" type="text/css">
 </head>
 <body>
@@ -95,9 +95,9 @@
                 </div>
                 <div class="price"><span>$</span>299</div>
                 <div class="count">
-                    <button id="num-min-2">-</button>
+                    <button id="num-min_2">-</button>
                     <input type="text" class="input-num-2" id="input-num_2" value="0" style="width:40px;height:20px;">
-                    <button id="num-plus-2">+</button>
+                    <button id="num-plus_2">+</button>
                 </div>
                 <div class="amount">299</div>
                 <div class="operate">
@@ -146,7 +146,25 @@
                           }
                
                       }
-                    
+                      var num_plus_2= document.getElementById("num-plus_2");
+                      var num_min_2= document.getElementById("num-min_2");
+                      var input_num_2 = document.getElementById("input-num_2");
+               
+                      num_plus_2.onclick = function() {
+               
+                          input_num_2.value = parseInt(input_num_2.value) + 1;
+                      }
+               
+                      num_min_2.onclick = function() {
+               
+                          if(input_num_2.value <= 0) {
+                              input_num_2.value = 0;
+                          } else {
+               
+                              input_num_2.value = parseInt(input_num_2.value) - 1;
+                          }
+               
+                      }
             </script>
         </div>
     </div>
